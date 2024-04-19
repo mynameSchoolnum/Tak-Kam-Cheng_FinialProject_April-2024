@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Estate Agent</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Realsweet Estate Agency</h1>
+        <nav>
+            <ul>
+                <li><a href="homePage.html">Home</a></li>
+                <li><a href="propertiesListPage.html">Properties</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="sitemap.html">Site Map</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Contact Us</h2>
+        <form action="mailto:email@example.com" method="post" enctype="text/plain">
+            <input type="text" name="firstname" placeholder="First Name" required>
+            <input type="text" name="lastname" placeholder="Last Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="tel" name="phone" placeholder="Phone">
+            <select name="propertyType">
+                <option value="house">House</option>
+                <option value="condominium">Condominium</option>
+            </select>
+            <input type="number" name="bedrooms" placeholder="Number of Bedrooms">
+            <input type="number" name="bathrooms" placeholder="Number of Bathrooms">
+            <input type="text" name="priceRange" placeholder="Price Range">
+            <textarea name="comments" placeholder="Additional Comments"></textarea>
+            <input type="submit" value="Send">
+        </form>
+    </main>
+
+    <footer>
+        <p>Contact Information: 647-540-2845 | ctakkam@my.centennialcollege.ca
+        </p>
+        <p>&copy; 2024 Tak Kam Cheng Estate Agent Website</p>
+    </footer>
+</body>
+</html>
